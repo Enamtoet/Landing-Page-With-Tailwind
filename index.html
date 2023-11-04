@@ -15,7 +15,7 @@
             <img src="img/logo.svg" alt="">
         </div>
         <!-- Menu Items -->
-        <div class="hidden md:flex space-x-8">
+        <div class="hidden  space-x-8 md:flex">
             <a href="#" class="hover:text-darkGrayishBlue">Pricing</a>
             <a href="#" class="hover:text-darkGrayishBlue">Product</a>
             <a href="#" class="hover:text-darkGrayishBlue">About Us</a>
@@ -23,26 +23,34 @@
             <a href="#" class="hover:text-darkGrayishBlue">Community</a>
         </div>
         <!-- Button  -->
-        <a href="" class="hidden md:block px-6 py-3 text-white bg-brightRed rounded-full hover:bg-brightRedLight">Get Started</a>
+        <a href="#" class="hidden  px-6 py-3 text-white bg-brightRed rounded-full hover:bg-brightRedLight md:block">Get Started</a>
     </div>
 
 </nav>
 <!-- Start Section -->
-<section id="section">
-    <div class=" container flex flex-col md:flex-row">
-        <!-- Left Item -->
-        <div class="flex flex-col mb-32 space-y-12">
-            <h1 class="mx-w-md text-4xl font-bold text-center md:5xl">Bring Every One Together To build Better Products</h1>
-            <p class="max-w-sm">Manage make it simple for software team to plan day-to-day tasks while keeping the larger team goal in view</p>
-            <a href="#" class=" w-fit px-5 py-3 bg-brightRed rounded-full text-white hover:bg-brightRedLight ">Get Started</a>
+<section id="hero">
+    <!-- Flex Container  -->
+    <div class="container flex flex-col-reverse  item-center px-6 mx-auto mt-10 space-y-0 md:space-y-0 md:flex-row">
+        <!-- Left Item  -->
+        <div class="flex flex-col mb-32 space-y-12 md:w-1/2">
+            <h1 class="max-w-md text-4xl font-bold text-center md:text-5xl md:text-left">
+                Bring every one together to build better products
+            </h1>
+            <p class="max-w-sm text-center text-darkGrayishBlue md:text-left">Manage make it simple for software teams  to plan day-to-day tasks while keeping the larger team goals in view</p>
+            <!-- Button  -->
+            <div class="flex justify-center md:justify-start ">
+                <a href="#" class="px-6 py-3 text-white bg-brightRed rounded-full hover:bg-brightRedLight">Get Started</a>
+            </div>
         </div>
-        <!-- Right Item -->
-        <div>
-            <img src="img/bg-simplify-section-desktop.svg" alt="">
-            <img src="img/bg-simplify-section-mobile.svg" alt="">
-
+        <!-- Image -->
+        <div class="md:w-1/2">
+            <img src="img/illustration-intro.svg" alt="">
         </div>
     </div>
+</section>
+<!-- Start Features  -->
+<section>
+    <div class="container flex flex-col px-4 mx-auto mt-10 space-y-12 md:flex-row md:space-y-0"></div>
 </section>
 </body>
 </html>
